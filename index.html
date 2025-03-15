@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lost Souls</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero">
+        <img src="images/cover.jpg" alt="The Lost Souls Band Cover">
+        <div class="hero-text">
+            <h1>The Lost Souls</h1>
+            <p>Classic Rock • Alternative • Pop Rock • Blues • Country</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#members">Band Members</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about scroll-animate">
+        <h2>About The Lost Souls</h2>
+        <p>We are a dynamic cover and tribute band from Louisville, KY, bringing the soul of Classic Rock, Alternative, Pop Rock, Blues, and Country to life.</p>
+    </section>
+
+    <section id="members" class="members scroll-animate">
+        <h2>Meet the Band</h2>
+        <div class="member-list">
+            <div class="member">
+                <img src="images/kelly.jpg" alt="Kelly Keith">
+                <h3>Kelly Keith</h3>
+                <p>Bassist & Manager</p>
+            </div>
+            <div class="member">
+                <img src="images/gary.jpg" alt="Gary Bartholomai">
+                <h3>Gary Bartholomai</h3>
+                <p>Lead Guitarist</p>
+            </div>
+            <div class="member">
+                <img src="images/alejandro.jpg" alt="Alejandro Santana">
+                <h3>Alejandro Santana</h3>
+                <p>Lead/Rhythm Guitarist & Vocals</p>
+            </div>
+            <div class="member">
+                <img src="images/lana.jpg" alt="Lana Finley">
+                <h3>Lana Finley</h3>
+                <p>Lead Vocals & Keys</p>
+            </div>
+            <div class="member">
+                <img src="images/megan.jpg" alt="Megan Fish">
+                <h3>Megan Fish</h3>
+                <p>Lead Vocals</p>
+            </div>
+            <div class="member">
+                <img src="images/danny.jpg" alt="Danny Eckardt">
+                <h3>Danny Eckardt</h3>
+                <p>Drums & Vocals</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact scroll-animate">
+        <h2>Contact Us for Bookings</h2>
+        <h3>Call: (701) 426-4544</h3>
+        <form action="https://formspree.io/2693606298695499122" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 The Lost Souls | Louisville, KY</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
